@@ -16,8 +16,13 @@ namespace WebApplication1
 
         protected void green_Click(object sender, EventArgs e)
         {
-            TextBox1.BackColor = System.Drawing.Color.Green;
-        }
+            string userInput = TextBox1.Text;
+            text2.Text = userInput;
+
+
+            text2.BackColor = System.Drawing.Color.Green;
+            
+    }
 
         
 

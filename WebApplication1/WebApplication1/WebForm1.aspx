@@ -21,8 +21,14 @@
     <th>
         <asp:Button ID="green" runat="server" OnClick="green_Click" Text="1-Green" Font-Size="Large" Height="55px" Width="136px" />
       </th>
+      <th>
+
+          <asp:TextBox ID="text2" runat="server" Font-Size="Large" Height="289px" ReadOnly="True" TextMode="MultiLine" Width="465px"></asp:TextBox>
+
+      </th>
   </tr>
  </table> 
+        <p>1- Copy the the orginial text and set the background color to green</p>
     </form>
 </body>
 </html>
