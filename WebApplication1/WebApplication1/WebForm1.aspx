@@ -20,6 +20,8 @@
       </th>
     <th>
         <asp:Button ID="green" runat="server" OnClick="green_Click" Text="1-Green" Font-Size="Large" Height="55px" Width="136px" />
+        <br />
+        <asp:Button ID="backward" runat="server" Font-Size="Large" Height="55px" OnClick="backward_Click" Text="2-Backward" Width="136px" />
       </th>
       <th>
 
@@ -29,6 +31,7 @@
   </tr>
  </table> 
         <p>1- Copy the the orginial text and set the background color to green</p>
+        <p>2- Copy the the orginial text and pasted backwards</p>
     </form>
 </body>
 </html>

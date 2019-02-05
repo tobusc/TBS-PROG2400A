@@ -18,13 +18,12 @@ namespace WebApplication1
         {
             string userInput = TextBox1.Text;
             text2.Text = userInput;
+            text2.BackColor = System.Drawing.Color.Green;            
+        }
 
-
-            text2.BackColor = System.Drawing.Color.Green;
-            
-    }
-
-        
-
+        protected void backward_Click(object sender, EventArgs e)
+        {
+            text2.Text = String.Join(" ", TextBox1.Text.Split(' ').Reverse());
+        }
     }
 }
