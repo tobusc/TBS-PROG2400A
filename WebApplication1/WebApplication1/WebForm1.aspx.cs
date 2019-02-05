@@ -18,7 +18,17 @@ namespace WebApplication1
         {
             string userInput = TextBox1.Text;
             text2.Text = userInput;
-            text2.BackColor = System.Drawing.Color.Green;            
+            
+            if (text2.BackColor == System.Drawing.Color.Green)
+            {
+                text2.BackColor = System.Drawing.Color.White;
+                green.Text = "1-Green";
+            }
+            else
+            {
+                text2.BackColor = System.Drawing.Color.Green;
+                green.Text = "1-Green Off";
+            }
         }
 
         protected void backward_Click(object sender, EventArgs e)
@@ -30,14 +40,34 @@ namespace WebApplication1
         {
             string userInput = TextBox1.Text;
             text2.Text = userInput;
-            text2.Font.Bold = true;
+            if (text2.Font.Bold == false)
+            {
+                text2.Font.Bold = true;
+                bold.Text = "3-Bold";
+            }
+            else
+            {
+                text2.Font.Bold = false;
+                bold.Text = "3-Bold Off";
+            }
         }
 
         protected void italic_Click(object sender, EventArgs e)
         {
             string userInput = TextBox1.Text;
             text2.Text = userInput;
-            text2.Font.Italic = true;
+
+            if (text2.Font.Italic == false)
+            {
+                text2.Font.Italic = true;
+                italic.Text = "4-Italic";
+            }
+            else
+            {
+                text2.Font.Italic = false;
+                italic.Text = "4-Italic Off";
+            }
+         
         }
     }
 }

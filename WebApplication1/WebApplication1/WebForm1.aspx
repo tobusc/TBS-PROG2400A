@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <h1>Text Editor</h1>
-        <p>Write your text in the text box below on the right. and then select some button to make the desired function</p>
+        <p>Write your text in the left textbox below,&nbsp; and then select a or mote button to make the desired function, your new text will be display on the right textbox</p>
          <table>
   <tr>
     <th>
@@ -26,6 +26,7 @@
         <asp:Button ID="bold" runat="server" Font-Bold="True" Font-Size="Large" Height="55px" OnClick="bold_Click" Text="3-Bold" Width="136px" />
         <br />
         <asp:Button ID="italic" runat="server" Font-Italic="True" Font-Size="Large" Height="55px" Text="4-Italic" Width="136px" OnClick="italic_Click" />
+        <br />
         <br />
       </th>
       <th>
