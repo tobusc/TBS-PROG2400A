@@ -32,5 +32,12 @@ namespace WebApplication1
             text2.Text = userInput;
             text2.Font.Bold = true;
         }
+
+        protected void italic_Click(object sender, EventArgs e)
+        {
+            string userInput = TextBox1.Text;
+            text2.Text = userInput;
+            text2.Font.Italic = true;
+        }
     }
 }

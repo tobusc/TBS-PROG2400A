@@ -24,6 +24,9 @@
         <asp:Button ID="backward" runat="server" Font-Size="Large" Height="55px" OnClick="backward_Click" Text="2-Backward" Width="136px" />
         <br />
         <asp:Button ID="bold" runat="server" Font-Bold="True" Font-Size="Large" Height="55px" OnClick="bold_Click" Text="3-Bold" Width="136px" />
+        <br />
+        <asp:Button ID="italic" runat="server" Font-Italic="True" Font-Size="Large" Height="55px" Text="4-Italic" Width="136px" OnClick="italic_Click" />
+        <br />
       </th>
       <th>
 
@@ -35,6 +38,7 @@
         <p>1- Copy the the orginial text and set the background color to green</p>
         <p>2- Copy the the orginial text and pasted backwards</p>
         <p>3- Copy the the orginial text and pasted as Bold text</p>
+        <p>3- Copy the the orginial text and pasted as Italic text</p>
     </form>
 </body>
 </html>
