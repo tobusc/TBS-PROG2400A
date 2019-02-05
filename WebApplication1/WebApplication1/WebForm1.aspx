@@ -9,8 +9,20 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        <h1>Text Editor</h1>
+        <p>Write your text in the text box below on the right. and then select some button to make the desired function</p>
+         <table>
+  <tr>
+    <th>
+        
+        <asp:TextBox ID="TextBox1" runat="server" Height="290px" Width="471px" Font-Size="Large" TextMode="MultiLine"></asp:TextBox>
+        
+      </th>
+    <th>
+        <asp:Button ID="green" runat="server" OnClick="green_Click" Text="1-Green" Font-Size="Large" Height="55px" Width="136px" />
+      </th>
+  </tr>
+ </table> 
     </form>
 </body>
 </html>
